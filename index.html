@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Workspace Tour</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ჰედერი -->
+  <header class="header">
+    <h1>Interactive Workspace Tour</h1>
+    <p>მიიტანეთ მაუსი წერტილებზე პროდუქტების დეტალების სანახავად</p>
+  </header>
+
+  <!-- მთავარი სექცია workspace ტურისთვის -->
+  <main>
+    <section class="workspace-showcase">
+      <!-- ფონის სურათი -->
+      <img src="assets/workspace.jpg" alt="Workspace Background" class="workspace-img">
+
+      <!-- Hotspots (წერტილები ნივთებზე) -->
+      
+      <!-- 1. მონიტორი -->
+      <div class="hotspot hotspot--monitor">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">4K Monitor</h3>
+          <span class="tooltip-price">$450</span>
+          <p class="tooltip-desc">27-inch IPS display, 144Hz refresh rate with USB-C hub.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- 2. კლავიატურა -->
+      <div class="hotspot hotspot--keyboard">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">Keychron Custom Keyboard</h3>
+          <span class="tooltip-price">$100</span>
+          <p class="tooltip-desc">Tactile switches, hot-swappable RGB mechanical keyboard.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- 3. მაუსი -->
+      <div class="hotspot hotspot--mouse">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">Ergonomic Wireless Mouse</h3>
+          <span class="tooltip-price">$90</span>
+          <p class="tooltip-desc">Precision tracking with customizable side buttons.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- 4. ყავის ჭიქა -->
+      <div class="hotspot hotspot--coffee">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">Ceramic Coffee Mug</h3>
+          <span class="tooltip-price">$15</span>
+          <p class="tooltip-desc">Keeps your coffee hot during long coding sessions.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- 5. მცენარე -->
+      <div class="hotspot hotspot--plant">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">Succulent Desk Plant</h3>
+          <span class="tooltip-price">$12</span>
+          <p class="tooltip-desc">Low-maintenance indoor plant for fresh workspace aesthetics.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- 6. ყურსასმენი -->
+      <div class="hotspot hotspot--headphones">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">Noise-Canceling Headphones</h3>
+          <span class="tooltip-price">$220</span>
+          <p class="tooltip-desc">Wireless over-ear headphones with active noise cancellation.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+      <!-- 7. ბლოკნოტი -->
+      <div class="hotspot hotspot--notebook">
+        <span class="hotspot-icon">+</span>
+        <div class="tooltip">
+          <h3 class="tooltip-title">Leather Notebook</h3>
+          <span class="tooltip-price">$25</span>
+          <p class="tooltip-desc">Grid paper for quick sketches, task lists, and ideas.</p>
+          <a href="#" class="tooltip-btn">View Details</a>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- მცურავი დამხმარე ვიჯეტი (fixed) -->
+  <button class="help-widget" aria-label="Help">?</button>
+
+</body>
+</html>
